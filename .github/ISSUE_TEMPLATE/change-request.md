@@ -8,20 +8,20 @@ assignees: ''
 
 ---
 
-**Description:**: 
-Detailed explanation of the change, including rationale and objectives.
+**Description:**
+[Detailed explanation of the change, including rationale and objectives.]
 
-**Impact Assessment:**: 
-Evaluation of how the change will affect existing systems or users.
+**Impact Assessment:**
+[Evaluation of how the change will affect existing systems or users.]
 
-**Risk Assessment:**: 
+**Risk Assessment:**
 [Impact on systems/services.]
 
 **Improvement:**: 
 [Indicate if it is a new feature or improvement]
 
 **Approval:**: 
-Status and notes from the Change Advisory Board (CAB) or relevant stakeholders.
+[Status and notes from the Change Advisory Board (CAB) or relevant stakeholders.]
 
 **Implementation Plan:** 
-Steps for carrying out the change, including testing and rollback plans.
+[Steps for carrying out the change, including testing and rollback plans.]
