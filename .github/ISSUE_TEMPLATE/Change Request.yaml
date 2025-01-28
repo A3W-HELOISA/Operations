@@ -1,7 +1,6 @@
 name: "Change Request"
 description: "Form to submit a formal proposal for service, system, or process modifications."
-assignees:
-  - "" # Add default assignee here if applicable
+assignees:  "" # Add default assignee here if applicable
 labels:
   - "Ph.Change"
   - "S.2-Pending Approval"
