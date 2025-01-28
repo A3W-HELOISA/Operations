@@ -1,15 +1,9 @@
 name: "Change Request"
 description: "Form to submit a formal proposal for service, system, or process modifications."
-assignees:
-  - "" # Add default assignee here if applicable
-labels:
-  - "Ph.Change"
-  - "S.2-Pending Approval"
-projects:
-  - "HELOISA Operations - Service Management"
-title : "Change Request to xxx"
+assignees: "" # Add default assignee here if applicable
+labels: "Ph.Change", "S.2-Pending Approval"
+projects: "HELOISA Operations - Service Management"
 type: "it_Change Request"
-
 body:
   - type: textarea
     id: description
@@ -17,20 +11,6 @@ body:
       label: "Description"
       description: "Detailed explanation of the proposed change, including rationale and objectives."
       placeholder: "Provide a detailed description of the change."
-
-  - type: dropdown
-    id: status
-    attributes:
-      label: "Status"
-      description: "Select the current status of the change request."
-      options:
-        - "2-Pending Approval"
-        - "1-Open"
-        - "3-Under Review"
-        - "4-Completed"
-    validations:
-      required: true
-      
   - type: textarea
     id: impact_analysis
     attributes:
