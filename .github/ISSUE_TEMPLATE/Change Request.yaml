@@ -1,0 +1,29 @@
+name: "Change Request"
+description: "Form to submit a formal proposal for service, system, or process modifications."
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Detailed explanation of the proposed change, including rationale and objectives."
+      placeholder: "Provide a detailed description of the change."
+      required: true
+  - type: textarea
+    id: impact_analysis
+    attributes:
+      label: "Impact Analysis"
+      description: "Describe how the change will affect existing systems or users."
+      placeholder: "Provide an impact assessment."
+      required: true
+  - type: textarea
+    id: approval_details
+    attributes:
+      label: "Approval Details"
+      description: "Provide status and notes from the Change Advisory Board or relevant stakeholders."
+      placeholder: "Details of approvals or comments from stakeholders."
+  - type: textarea
+    id: implementation_plan
+    attributes:
+      label: "Implementation Plan"
+      description: "List steps for implementation, testing, and rollback."
+      placeholder: "Outline your implementation plan."
