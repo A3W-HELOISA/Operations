@@ -4,7 +4,7 @@ assignees:
   - "" # Add default assignee here if applicable
 labels:
   - "Ph.Problem"
-  - "S.2-Pending Approval"
+  - "S.1-Open"
 projects:
   - "HELOISA Operations - Service Management"
 title : "A problem occurred in xxx"
