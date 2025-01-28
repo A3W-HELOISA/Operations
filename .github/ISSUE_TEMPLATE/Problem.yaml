@@ -11,18 +11,21 @@ title : "A problem occured in xxx"
 type: "it_Problem"
 
 body:
-  - type: input
-    id: title
-    attributes:
-      label: "Title"
-      description: "Concise description of the recurring issue."
-      placeholder: "Provide a title for the problem."
   - type: textarea
     id: description
     attributes:
       label: "Description"
       description: "In-depth analysis of the problem, including related incidents."
       placeholder: "Provide a detailed description."
+  - type: dropdown
+    id: priority
+    attributes:
+      label: "Priority"
+      description: "Select the importance level of the request."
+      options:
+        - "Low"
+        - "Medium"
+        - "High"
   - type: textarea
     id: root_cause_analysis
     attributes:
