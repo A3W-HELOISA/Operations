@@ -1,9 +1,7 @@
 name: "Change Request"
 description: "Form to submit a formal proposal for service, system, or process modifications."
 
-labels:
-  - "Ph.Change"
-  - "S.2-Pending Approval"
+labels: "Ph.Change", "S.2-Pending Approval"
 projects:
   - "HELOISA Operations - Service Management"
 title : "Change Request to xxx"
