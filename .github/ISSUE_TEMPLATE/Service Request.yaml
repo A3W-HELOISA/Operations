@@ -1,0 +1,39 @@
+name: "Service Request"
+description: "Form to submit standard user support queries or minor requests."
+assignees:
+  - "" # Add default assignee here if applicable
+labels:
+  - "Ph.Configuration"
+  - "S.2-Pending Approval"
+projects:
+  - "HELOISA Operations - Service Management"
+type: "it_Service Request"
+
+body:
+  - type: input
+    id: title
+    attributes:
+      label: "Title"
+      description: "Brief description of the request."
+      placeholder: "Provide a concise title."
+  - type: textarea
+    id: details
+    attributes:
+      label: "Details"
+      description: "Explanation of what the user needs and why."
+      placeholder: "Provide detailed information."
+  - type: dropdown
+    id: priority
+    attributes:
+      label: "Priority"
+      description: "Select the importance level of the request."
+      options:
+        - "Low"
+        - "Medium"
+        - "High"
+  - type: textarea
+    id: fulfillment_notes
+    attributes:
+      label: "Fulfillment Notes"
+      description: "Information on how the request was addressed or fulfilled."
+      placeholder: "Provide fulfillment details."
