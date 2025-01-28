@@ -17,6 +17,16 @@ body:
       label: "Description"
       description: "Detailed explanation of the proposed change, including rationale and objectives."
       placeholder: "Provide a detailed description of the change."
+  - type: dropdown
+    id: type
+    attributes:
+      label: "Type"
+      description: "Specify the type of request."
+      options:
+        - "it_Change Request"
+        - "it_Incident"
+        - "it_Problem"
+        - "it_Service Request"
   - type: textarea
     id: impact_analysis
     attributes:
@@ -47,13 +57,4 @@ body:
         - "4-Completed"
     validations:
       required: true
-  - type: dropdown
-    id: type
-    attributes:
-      label: "Type"
-      description: "Specify the type of request."
-      options:
-        - "it_Change Request"
-        - "it_Incident"
-        - "it_Problem"
-        - "it_Service Request"
+
