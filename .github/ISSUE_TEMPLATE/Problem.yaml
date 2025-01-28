@@ -7,7 +7,7 @@ labels:
   - "S.2-Pending Approval"
 projects:
   - "HELOISA Operations - Service Management"
-title : "A problem occured in xxx"
+title : "A problem occurred in xxx"
 type: "it_Problem"
 
 body:
