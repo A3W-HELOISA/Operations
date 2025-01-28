@@ -1,0 +1,41 @@
+name: "Incident Report"
+description: "Form to report unexpected disruptions or degradations in a service, system, or process."
+assignees:
+  - "" # Add default assignee here if applicable
+labels:
+  - "Ph.Incident"
+  - "S.2-Pending Approval"
+projects:
+  - "HELOISA Operations - Service Management"
+type: "it_Incident"
+body:
+  - type: input
+    id: title
+    attributes:
+      label: "Title"
+      description: "Short summary of the incident."
+      placeholder: "Provide a concise title."
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Detailed account of what occurred, including affected systems or users."
+      placeholder: "Provide a detailed description."
+  - type: textarea
+    id: impact_assessment
+    attributes:
+      label: "Impact Assessment"
+      description: "Describe the scope of the disruption (e.g., number of users affected)."
+      placeholder: "Describe the impact."
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: "Reproduction Steps"
+      description: "Steps to replicate the incident, if applicable."
+      placeholder: "List the steps to reproduce."
+  - type: textarea
+    id: resolution_details
+    attributes:
+      label: "Resolution Details"
+      description: "Explain the actions taken to resolve the issue and any root cause analysis."
+      placeholder: "Provide resolution details."
