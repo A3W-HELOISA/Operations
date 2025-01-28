@@ -17,16 +17,20 @@ body:
       label: "Description"
       description: "Detailed explanation of the proposed change, including rationale and objectives."
       placeholder: "Provide a detailed description of the change."
+
   - type: dropdown
-    id: type
+    id: status
     attributes:
-      label: "Type"
-      description: "Specify the type of request."
+      label: "Status"
+      description: "Select the current status of the change request."
       options:
-        - "it_Change Request"
-        - "it_Incident"
-        - "it_Problem"
-        - "it_Service Request"
+        - "2-Pending Approval"
+        - "1-Open"
+        - "3-Under Review"
+        - "4-Completed"
+    validations:
+      required: true
+      
   - type: textarea
     id: impact_analysis
     attributes:
@@ -45,16 +49,4 @@ body:
       label: "Implementation Plan"
       description: "List steps for implementation, testing, and rollback."
       placeholder: "Outline your implementation plan."
-  - type: dropdown
-    id: status
-    attributes:
-      label: "Status"
-      description: "Select the current status of the change request."
-      options:
-        - "2-Pending Approval"
-        - "1-Open"
-        - "3-Under Review"
-        - "4-Completed"
-    validations:
-      required: true
 
