@@ -7,14 +7,12 @@ body:
       label: "Description"
       description: "Detailed explanation of the proposed change, including rationale and objectives."
       placeholder: "Provide a detailed description of the change."
-      required: true
   - type: textarea
     id: impact_analysis
     attributes:
       label: "Impact Analysis"
       description: "Describe how the change will affect existing systems or users."
       placeholder: "Provide an impact assessment."
-      required: true
   - type: textarea
     id: approval_details
     attributes:
