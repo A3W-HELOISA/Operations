@@ -1,11 +1,16 @@
 # Spatial Resolution
 The following instruction are applicable for the **Water Quality Features** products, i.e., chlorophyl-a and turbidity parameters.
 
+| Module ID | Related Requirements | Expected Input | Automated test | Date | Tester |
+|------|---|--------------------------------------| --- |----| ---|
+| WS-WQ-IF-AD    |  GNEO-SOW-2-URS-003, GNEO-SOW-2-FRS-002 | Chl-a COG      | No | 19/02/2025 | \<Name> |
+
 ## Tools
 - GDAL
 - QGIS (for visual/manual verification)
 - Internet Browser (Firefox, Google Chrome etc.)
 
+## Instructions
 ### Step 1: Native Pixel Size from GeoTIFF Metadata
 #### Objective: Confirm that the nominal raster pixel size is exactly 10m.
 #### Instructions:

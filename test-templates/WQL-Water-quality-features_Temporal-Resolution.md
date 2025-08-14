@@ -2,10 +2,15 @@
 The following instructions are applicable for the **Water Quality Features** products, i.e., chlorophyl-a and turbidity parameters.
 This protocol ensures the acquisition date and the expected temporal resolution of Sentinel-2-based **Water Quality Features** chl-a GeoTIFF products is valid and consistent across the product and metadata.
 
+| Module ID | Related Requirements | Expected Input | Automated test | Date | Tester |
+|------|---|--------------------------------------| --- |----| ---|
+| WS-WQ-IF-AD    |  GNEO-SOW-2-URS-004, GNEO-SOW-2-FRS-003 | Chl-a COG      | No | 19/02/2025 | \<Name> |
+
 ## Tools
 - Spreadsheet editor
 - Internet Browser (Firefox, Google Chrome etc.)
 
+## Instructions
 ### Step 1: Confirm Product Contains Valid Acquisition Date
 #### Objective: Ensure that each chl-a product is tied to a single valid Sentinel-2 acquisition date.
 #### Instructions:
