@@ -1,9 +1,14 @@
 # Timeliness
 The following instructions are applicable for the **Water Quality Features** products, i.e., chlorophyl-a and turbidity parameters, to verify that they are delivered within 3 hours of Sentinel-2 acquisition time or availability on G-Hub, ensuring Near Real-Time (NRT) compliance.
 
+| Module ID | Related Requirements | Expected Input | Automated test | Date | Tester |
+|------|---|--------------------------------------| --- |----| ---|
+| WS-WQ-IF-AD    |  GNEO-SOW-2-URS-003, GNEO-SOW-2-FRS-002 | Chl-a COG      | No | 19/02/2025 | \<Name> |
+
 ## Tools
 - Internet Browser (Firefox, Google Chrome etc.)
 
+## Instructions
 ### Step 1: Extract Sentinel-2 Acquisition Time or Availability on G-Hub
 #### Objective: Get the Sentinel-2 timestamp of when it became available on G-Hub.
 #### Instructions:

@@ -1,9 +1,13 @@
-# Spatial Resolution
+# Area of Interest
 The following instructions are applicable for the **Water Quality Features** products, i.e., chlorophyl-a and turbidity parameters. Ensure that each Chl-a product:
 1. Covers the intended geographic AOI (named lakes or lagoons).
 2. Applies lake-specific masking or processing rules.
 3. Is labeled consistently in the metadata by name and water body type (if relevant).
 4. Avoids spurious generation for non-targeted or invalid regions.
+
+| Module ID | Related Requirements | Expected Input | Automated test | Date | Tester |
+|------|---|--------------------------------------| --- |----| ---|
+| WS-WQ-IF-AD    |  GNEO-SOW-2-URS-003, GNEO-SOW-2-FRS-002 | Chl-a COG      | No | 19/02/2025 | \<Name> |
 
 ## Tools
 - QGIS (for visual/manual verification)
