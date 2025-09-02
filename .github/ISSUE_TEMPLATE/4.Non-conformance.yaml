@@ -1,13 +1,12 @@
 ---
 name: "Non-Conformity Report"
-about: "Report a deviation from requirements, standards, or stakeholder expectations"
 title: "NC-[ID]: <Short description of issue>"
 labels: ["priority.4-Critical 🔴", "status_1.Draft 📝"]
 type: 4.Non-conformance
 assignees: ["keradin"]
 projects: ["A3W-HELOISA/Development"]
 ---
-
+body:
 # 📝 Non-Conformity Report
 
 ## 🔹 Non-Conformity Definition
