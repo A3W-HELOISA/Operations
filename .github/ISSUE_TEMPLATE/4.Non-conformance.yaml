@@ -1,18 +1,15 @@
----
 name: "Non-Conformity Report"
 title: "NC-[ID]: <Short description of issue>"
 labels: ["priority.4-Critical 🔴", "status_1.Draft 📝"]
 type: 4.Non-conformance
 assignees: ["keradin"]
 projects: ["A3W-HELOISA/Development"]
----
+
 body:
 # 📝 Non-Conformity Report
 
 ## 🔹 Non-Conformity Definition
 A non-conformity is any deviation from requirements, standards, or stakeholder expectations that could negatively impact project outcomes, data quality, or compliance.
-
----
 
 ## 📌 Basic Information
 - **ID:** NC-YYYY-XXX (unique identifier)
