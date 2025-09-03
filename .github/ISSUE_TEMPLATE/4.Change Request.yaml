@@ -1,11 +1,11 @@
-name: "4.Change request"
+name: "4.Change Request"
 description: "Form to submit a formal proposal for service, system, or process modifications."
 
 assignees: ["keradin"]
 labels: []
 projects: ["A3W-HELOISA/Operations"]
 title : "Change Request to xxx"
-type: 4.Change request
+type: 4.Change Request
 
 body:
   - type: textarea
