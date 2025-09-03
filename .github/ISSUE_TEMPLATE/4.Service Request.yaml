@@ -1,13 +1,11 @@
-name: "Service Request"
+name: "4.Service Request"
 description: "Form to submit standard user support queries or minor requests."
-assignees:
-  - "" # Add default assignee here if applicable
-labels:
-  - "Ph.Configuration"
-  - "S.2-Pending Approval"
-projects:
-  - "HELOISA Operations - Service Management"
-type: "it_Service Request"
+
+assignees: ["keradin"]
+labels: []
+projects: ["A3W-HELOISA/Operations"]
+title: "Service Request: <Short description of request>"
+type: 4.Nonconformity
 
 body:
   - type: input
