@@ -8,27 +8,14 @@ title: "Service Request: <Short description of request>"
 type: 4.Nonconformity
 
 body:
-  - type: input
-    id: title
-    attributes:
-      label: "Title"
-      description: "Brief description of the request."
-      placeholder: "Provide a concise title."
+
   - type: textarea
     id: details
     attributes:
       label: "Details"
       description: "Explanation of what the user needs and why."
       placeholder: "Provide detailed information."
-  - type: dropdown
-    id: priority
-    attributes:
-      label: "Priority"
-      description: "Select the importance level of the request."
-      options:
-        - "Low"
-        - "Medium"
-        - "High"
+
   - type: textarea
     id: fulfillment_notes
     attributes:
