@@ -1,14 +1,11 @@
-name: "Change Request"
+name: "4.Change request"
 description: "Form to submit a formal proposal for service, system, or process modifications."
-assignees:
-  - "" # Add default assignee here if applicable
-labels:
-  - "Ph.Change"
-  - "S.2-Pending Approval"
-projects:
-  - "HELOISA Operations - Service Management"
+
+assignees: ["keradin"]
+labels: []
+projects: ["A3W-HELOISA/Operations"]
 title : "Change Request to xxx"
-type: "it_Change Request"
+type: 4.Change request
 
 body:
   - type: textarea
